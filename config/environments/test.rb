@@ -57,4 +57,5 @@ Rails.application.configure do
 
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true
+  config.hosts << "bbdb1178abc1497aa156a78b4827e4df.vfs.cloud9.ap-northeast-1.amazonaws.com"
 end
